@@ -62,14 +62,17 @@
             <intent
                 android:action="android.intent.action.MAIN"
                 android:targetClass="org.lineageos.settings.device.speaker.ClearSpeakerActivity"
+
+    <PreferenceCategory
+            android:key="power_category" 
+            android:title="@string/power_title">
+         <Preference 
+            android:title="@string/thermal_title" 
+            android:summary="@string/thermal_summary">
+          <intent android:action="android.intent.action.MAIN" 
+                android:targetClass="org.lineageos.settings.device.thermal.ThermalActivity"
                 android:targetPackage="org.lineageos.settings.device" />
         </Preference>
-
-    </PreferenceCategory>
-
-     <PreferenceCategory
-           android:key="refresh_category"
-           android:title="@string/refresh_title">
 
      <Preference
            android:title="@string/refresh_title">

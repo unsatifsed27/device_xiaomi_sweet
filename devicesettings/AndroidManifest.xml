@@ -79,5 +79,21 @@
             android:permission="RefreshService">
         </service>
 
-    </application>
+     <activity
+         android:name=".thermal.ThermalActivity" 
+         android:label="@string/thermal_title" 
+         android:exported="false" 
+         android:theme="@style/Theme.SubSettingsBase"> 
+         <intent-filter>
+             <action android:name="android.intent.action.MAIN" /> 
+             <category android:name="android.intent.category.DEFAULT" />
+         </intent-filter>
+      </activity>
+         <service 
+              android:name=".thermal.ThermalService" 
+              android:permission="ThermalService">
+         </service>
+
+  </application>
+
 </manifest>

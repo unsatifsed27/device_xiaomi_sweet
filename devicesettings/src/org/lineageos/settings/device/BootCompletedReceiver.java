@@ -31,6 +31,7 @@ import org.lineageos.settings.device.Constants;
 import org.lineageos.settings.device.dirac.DiracUtils;
 import org.lineageos.settings.device.utils.DisplayUtils;
 import org.lineageos.settings.device.refreshrate.RefreshUtils;
+import org.lineageos.settings.device.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -42,5 +43,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         DisplayUtils.updateRefreshRateSettings(context);
         DiracUtils.initialize(context);
         RefreshUtils.startService(context);
+        ThermalUtils.startService(context);
     }
 }
