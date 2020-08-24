@@ -104,6 +104,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DeviceSettings
 
+# Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
