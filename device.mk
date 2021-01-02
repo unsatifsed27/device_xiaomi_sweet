@@ -116,7 +116,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     FrameworkResOverlaySweet \
     SystemUIOverlaySweet \
-    SettingsOverlaySweet
+    SettingsOverlaySweet \
+    SettingsLibOverlaySweet
 
 # Permissions
 PRODUCT_COPY_FILES += \
