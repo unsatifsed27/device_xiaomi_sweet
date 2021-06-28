@@ -296,5 +296,9 @@ PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-service \
     android.hardware.contexthub@1.0-impl
 
+# CAS
+PRODUCT_PACKAGES += \
+    android.hardware.cas@1.2-service
+
 include vendor/xiaomi/sweet/sweet-vendor.mk
 
