@@ -62,7 +62,10 @@
             <intent
                 android:action="android.intent.action.MAIN"
                 android:targetClass="org.lineageos.settings.device.speaker.ClearSpeakerActivity"
+                android:targetPackage="org.lineageos.settings.device" />
+         </Preference>
 
+   </PreferenceCategory>
 
     <PreferenceCategory
             android:key="power_category"
