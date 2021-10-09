@@ -22,3 +22,6 @@ persist.vendor.camera.facepp.fdenable=0
 
 # One handed mode
 ro.support_one_handed_mode=true
+
+# Radio
+persist.sys.fflag.override.settings_provider_model=false
