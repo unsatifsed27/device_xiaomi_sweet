@@ -63,8 +63,9 @@
                 android:action="android.intent.action.MAIN"
                 android:targetClass="org.lineageos.settings.device.speaker.ClearSpeakerActivity"
 
+
     <PreferenceCategory
-            android:key="power_category" 
+            android:key="power_category"
             android:title="@string/power_title">
          <Preference 
             android:title="@string/thermal_title" 
