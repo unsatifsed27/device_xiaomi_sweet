@@ -98,6 +98,7 @@
         <activity
             android:name=".color.KcalSettingsActivity" 
             android:theme="@style/Theme.SubSettingsBase"
+            android:exported="false"
             android:label="@string/kcal_settings_title">
           <intent-filter>
                 <action android:name="android.intent.action.MAIN" /> 
