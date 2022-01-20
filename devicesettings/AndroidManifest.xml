@@ -51,6 +51,22 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
          </activity>
+  
+        <activity
+            android:name=".refreshrate.RefreshActivity" 
+            android:label="@string/refresh_title" 
+            android:exported="false" 
+            android:theme="@style/Theme.SubSettingsBase">
+        <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+             <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter> 
+        </activity>
+        <service 
+            android:name=".refreshrate.RefreshService" 
+            android:exported="true"
+            android:permission="RefreshService">
+        </service>
+
     </application>
 </manifest>
-

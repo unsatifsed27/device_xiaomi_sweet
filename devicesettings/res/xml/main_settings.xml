@@ -23,7 +23,6 @@
             android:key="pref_refresh_rate_config"
             android:title="@string/enable_high_refresh_rate_title"
             android:summary="@string/enable_high_refresh_rate_summary"
-            android:icon="@drawable/ic_smartphone"
             android:entries="@array/device_refresh_rates"
             android:entryValues="@array/device_refresh_rates_val"/>
 
@@ -40,8 +39,7 @@
         <SwitchPreference
             android:key="pref_dc_dimming"
             android:title="@string/dc_dimming_title"
-            android:summary="@string/dc_dimming_summary"
-            android:icon="@drawable/ic_dc_dimming"/>
+            android:summary="@string/dc_dimming_summary"/>
 
     </PreferenceCategory>
 
@@ -50,7 +48,6 @@
         android:title="@string/sound_title">
 
         <Preference
-            android:icon="@drawable/ic_sound"
             android:title="@string/dirac_title"
             android:summary="@string/dirac_summary">
             <intent
@@ -60,5 +57,20 @@
         </Preference>
 
     </PreferenceCategory>
+
+     <PreferenceCategory
+           android:key="refresh_category"
+           android:title="@string/refresh_title">
+
+     <Preference
+           android:title="@string/refresh_title">
+ 
+           <intent
+               android:action="android.intent.action.MAIN"
+               android:targetClass="org.lineageos.settings.device.refreshrate.RefreshActivity"
+               android:targetPackage="org.lineageos.settings.device" />
+     </Preference>
+
+     </PreferenceCategory>
 
 </PreferenceScreen>
