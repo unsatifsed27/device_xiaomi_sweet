@@ -52,7 +52,8 @@
             </intent-filter>
          </activity>
 
-        <activity android:name=".speaker.ClearSpeakerActivity" 
+        <activity
+            android:name=".speaker.ClearSpeakerActivity" 
             android:label="@string/clear_speaker_title" 
             android:exported="false" 
             android:theme="@style/Theme.SubSettingsBase"> 
@@ -94,6 +95,16 @@
               android:permission="ThermalService">
          </service>
 
-  </application>
+        <activity
+            android:name=".color.KcalSettingsActivity" 
+            android:theme="@style/Theme.SubSettingsBase"
+            android:label="@string/kcal_settings_title">
+          <intent-filter>
+                <action android:name="android.intent.action.MAIN" /> 
+                <category android:name="android.intent.category.DEFAULT" />
+          </intent-filter>
+        </activity>
+
+    </application>
 
 </manifest>

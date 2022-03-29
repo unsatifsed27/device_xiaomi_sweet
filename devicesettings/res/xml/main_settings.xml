@@ -41,6 +41,15 @@
             android:title="@string/dc_dimming_title"
             android:summary="@string/dc_dimming_summary"/>
 
+        <Preference
+            android:title="@string/kcal_settings_title" 
+            android:summary="@string/kcal_settings_summary">
+          <intent
+              android:action="android.intent.action.MAIN"
+              android:targetClass="org.lineageos.settings.device.color.KcalSettingsActivity"
+              android:targetPackage="org.lineageos.settings.device" />
+         </Preference>
+
     </PreferenceCategory>
 
     <PreferenceCategory
