@@ -1937,3 +1937,7 @@ vendor/etc/init/vendor.qti.hardware.vibrator.service.rc|fe74171caedb9743fa3737c7
 -vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml|08a0ebee8a556b352fff4bf9981c4beff71bb26f
 vendor/lib64/libqtivibratoreffect.so|d926ae1147acdcabdd99f2d8e7c7b79981ac12b5
 vendor/lib64/vendor.qti.hardware.vibrator.impl.so|c9a893a1a245100de7bdd02b0b98c095b0225c1a
+
+# Camera prebuilt interfaces
+lib64/libcameraservice.so
+system_ext/lib64/vendor.qti.hardware.camera.device@3.5.so
