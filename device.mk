@@ -107,7 +107,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    GrapheneCamera
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
