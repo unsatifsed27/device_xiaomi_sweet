@@ -197,7 +197,7 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
 # Fingerprint
-ro.hardware.fp.vendor=fpc,fortsense
+ro.hardware.fingerprint=fpc
 
 # Media
 media.stagefright.enable-player=true
