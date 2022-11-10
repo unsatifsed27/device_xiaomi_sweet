@@ -5,3 +5,6 @@ dalvik.vm.image-dex2oat-filter=speed
 dalvik.vm.image-dex2oat-threads=8
 dalvik.vm.dex2oat-filter=speed
 dalvik.vm.dex2oat-threads=8
+
+# Incremental FS
+ro.incremental.enable=yes
