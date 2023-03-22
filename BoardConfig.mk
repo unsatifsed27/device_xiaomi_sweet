@@ -229,6 +229,9 @@ TARGET_TRUST_USB_CONTROL_DISABLE := 1
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2022-05-01
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
