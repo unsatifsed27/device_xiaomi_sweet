@@ -277,6 +277,10 @@ vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/camera/com.qti.tuned.sweet_ofilm_s5kgw3_wide.bin|2fecdcf39059179fff3da1617e4eabdc45414fa1
 vendor/lib64/camera/com.qti.tuned.sweet_sunny_s5kgw3_wide.bin|fe2e514d7a36fb12518d49856521d0a4e0edca0f
 
+# Display
+vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml
+vendor/etc/dsi_k6_38_0e_0b_fhd_dsc_video_display_mi.xml
+
 # Fingerprint
 -vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.sm6150.so
 
